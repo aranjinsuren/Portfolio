@@ -17,8 +17,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hey there! I'm <span className='text-[#915EFF]'>Aranjin</span>
-          </h1>
+                Hi, I'm &nbsp;
+                <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
+                  Aranjin
+                </span>
+              </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <Typewriter
               onInit={(typewriter) => {
@@ -41,8 +44,8 @@ const Hero = () => {
                       .deleteChars(14)
                       .typeString("teamworker")
                       .pauseFor(1500)
-                      .deleteChars(12)
-                      .typeString("him.")
+                      .deleteChars(16)
+                      .typeString("Let's connect!")
                       .pauseFor(1500)
                       .start()
               }}

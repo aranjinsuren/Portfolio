@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Particles from "./Particles";
+import Resume from "./Resume";
 
 
 
@@ -20,6 +22,8 @@ export {
   Works,
   Feedbacks,
   Contact,
+  Resume,
+  Particles,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
