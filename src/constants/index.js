@@ -114,40 +114,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Teaching Assistant, Advanced Programming Techniques in Java",
+    title: "Teaching Assistant, Data Structures & Algorithms",
     company_name: "Michtom School of Computer Science, Brandeis University",
     icon: brandeis,
     iconBg: "#E6DEDD",
-    date: "Jul 2022 - Present",
+    date: "Aug 2023 – Present",
     points: [
-      "Taught 250+ students fundamentals of encapsulation, inheritance, polymorphism, abstraction, and algorithms",
-      "Provide weekly support on coding assignments through office hours",
-    ],
-  },
-  {
-    title: "Head Teaching Assistant, Advanced Programming Techniques in Java",
-    company_name: "Michtom School of Computer Science, Brandeis University",
-    icon: brandeis,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - May 2023",
-    points: [
-      "Led a team of 5 teaching assistants to hold weekly recitations and office hours to help students develop a deeper understanding of Object-oriented programming",
-      "Devised a programming assignment that tests recursion and backtracking as well as its grading rubric",
-      "Reviewed grading of 40+ programming assignments biweekly to ensure constructive feedback for students' growth",
-      "Wrote midterm and final examinations to test fundamental understanding of OOP",
-    ],
-  },
-  {
-    title: "Director of Tech Consulting",
-    company_name: "TAMID Group",
-    icon: tamid,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Lead a team of 19 student engineers to provide full stack and data analytics development for 2 Israeli start-up companies: InBe and Weelrn",
-      "Engineer clients’ products from the initial Minimum Viable Product (MVP) stage all the way to Minimum Marketable Feature (MMF) stage",
-      "Ensure quality of 150+ commits through code reviews and testing",
-      "Spearheading client-project matching, project scoping, and client expectation negotiations",
+      "Spearhead recitations for an audience of 100+ students, effectively teaching and reinforcing key concepts in classic data structures including linked lists, stacks, queues, trees, hash tables, and graphs",
+      "Conduct regular office hours, serving as a key resource in elevating students’ comprehension of intricate sorting and fundamental graph algorithms such as depth-first search, breadth-first search, and single-source shortest paths",
+      "Assess algorithms assignments for 120+ students weekly, providing specific feedback to improve modularity and coding efficiency, resulting in a 35% improvement in student performance throughout the semester"
     ],
   },
   {
@@ -155,19 +130,36 @@ const experiences = [
     company_name: "Graduate School of Arts and Sciences, Brandeis University",
     icon: brandeis,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    date: "May 2023 – Present",
     points: [
-      "Develop Natural language processing model in Python to filter, tokenize, part-of-speech tag, and lemmatize 2300+ graduate student applicants’ statements of purpose for analysis",
-      "Analyze 6400+ course section enrollment data to build a predictive machine learning model on assisting the composition of course size and offerings for 5400+ students",
+      "Engineer a Natural language processing model to process 2,300+ graduate applications, improving candidate analysis efficiency and accuracy by over 20%",
+      "Develop a machine learning model from analyzing 6,400+ course sections, optimizing offerings for 5,400+ students, leading to a 50% reduction in administrative planning time and significant cost savings",
     ],
   },
   {
-    title: "Incoming Teaching Assistant, Data Structures & Algorithms",
+    title: "Head Teaching Assistant, Advanced Programming in Java",
     company_name: "Michtom School of Computer Science, Brandeis University",
     icon: brandeis,
     iconBg: "#E6DEDD",
-    date: "Aug 2023",
-    points: [],
+    date: "Jul 2022 – Aug 2023",
+    points: [
+      "Taught 200+ students fundamentals of encapsulation, inheritance, polymorphism, abstraction, and algorithms",
+      "Oversaw a team of 5 teaching assistants to hold weekly recitations and office hours to help students develop a deeper understanding of Object-Oriented Programming",
+      "Devised a programming assignment that tests recursion and backtracking with the supporting grading JUnit tests",
+    ],
+  },
+  {
+    title: "Director of Tech Consulting",
+    company_name: "TAMID Group",
+    icon: tamid,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 – Present",
+    points: [
+      "Lead a team of 19 student engineers to provide full stack and data analytics development for 2 Israeli start-up companies: InBe and Weelrn",
+      "Direct the end-to-end process of client-project matching using Agile principles to ensure flexible project scoping and adaptive client expectation negotiations, ensuring optimal alignment of resources and successful project outcomes",
+      "Mentor a group of 25 junior developers, providing guidance on coding best practices, project management, and professional development",
+      "Uphold code quality standards by rigorously reviewing and testing over 150 commits, ensuring optimal functionality and adherence to best practices, resulting in a 30% decrease in post-deployment bugs"
+    ],
   },
 ];
 
